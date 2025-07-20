@@ -35,21 +35,19 @@ sci-cle-research-report/
 ├── requirements.txt # Project dependencies
 └── README.md # Project documentation
 
-yaml
-Copy code
+
 
 ---
 
 ## ⚙️ Installation
 
 1️⃣ **Clone this repository**
-```bash
+
 git clone https://github.com/yourusername/sci-cle-research-report.git
 cd sci-cle-research-report
 2️⃣ Install dependencies
 
-bash
-Copy code
+
 pip install -r requirements.txt
 3️⃣ Place your raw experiment data
 
@@ -62,8 +60,7 @@ Edit templates/report_template.docx to match your preferred style.
 🧑‍🔬 Usage
 Run the automation pipeline:
 
-bash
-Copy code
+ 
 python main.py
 ✅ Cleaned data, summary statistics, charts, and a final research report will be saved in outputs/experiment_run_<timestamp>/.
 
@@ -93,11 +90,13 @@ python-docx
 
 Install all with:
 
-bash
-Copy code
+ 
 pip install -r requirements.txt
 🛡 Security
 This system is designed for local processing of sensitive scientific data. It does not transmit data externally, making it suitable for private lab environments.
 
 👨‍💻 Author
 Somtochukwu O
+
+License
+This project is licensed for educational and portfolio purposes. Contact for commercial use.
